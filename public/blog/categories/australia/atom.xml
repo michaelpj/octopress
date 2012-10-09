@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Terms and Truth Conditions]]></title>
-  <link href="http://termsandtruthconditions.herokuapp.com//atom.xml" rel="self"/>
+  <title><![CDATA[Category: Australia | Terms and Truth Conditions]]></title>
+  <link href="http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
   <updated>2012-10-09T16:53:01+01:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
@@ -20,7 +20,7 @@
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction</id>
     <content type="html"><![CDATA[<p>Hi all!</p>
 
-<p>I&#8217;m Michael Peyton Jones, and this is my blog. I&#8217;m planning to use it for a variety of stuff, but I&#8217;m also going to be using it as a way to keep people up to date with what I&#8217;m doing in Australia. If that&#8217;s you, then you can get a feed that will just get you those posts by clicking <a href="http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml">this link</a>.</p>
+<p>I'm Michael Peyton Jones, and this is my blog. I'm planning to use it for a variety of stuff, but I'm also going to be using it as a way to keep people up to date with what I'm doing in Australia. If that's you, then you can get a feed that will just get you those posts by clicking <a href="/blog/categories/australia/atom.xml">this link</a>.</p>
 ]]></content>
   </entry>
   
