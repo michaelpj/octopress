@@ -10,4 +10,6 @@ Hi all!
 
 I'm Michael Peyton Jones, and this is my blog. I'm planning to use it for a variety of stuff, but I'm also going to be using it as a way to keep people up to date with what I'm doing in Australia. If that's you, then you can get a feed that will just get you those posts by clicking [this link](/blog/categories/australia/atom.xml). If you'd like to subscribe by email instead, then use [this link](http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US) to do that.
 
+TEST: $$\forall x, y : \mathbb{Z}, x > 3 \land y < 2 \Rightarrow x^2 - 2y > 5$$
+
 
