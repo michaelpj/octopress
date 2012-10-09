@@ -4,7 +4,7 @@
   <title><![CDATA[Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-10-09T20:07:37+01:00</updated>
+  <updated>2012-10-09T20:17:03+01:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -20,9 +20,12 @@
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction</id>
     <content type="html"><![CDATA[<p>Hi all!</p>
 
-<p>I&#8217;m Michael Peyton Jones, and this is my blog. I&#8217;m planning to use it for a variety of stuff, but I&#8217;m also going to be using it as a way to keep people up to date with what I&#8217;m doing in Australia. If that&#8217;s you, then you can get a feed that will just get you those posts by clicking <a href='http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml'>this link</a>. If you&#8217;d like to subscribe by email instead, then use <a href='http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;amp;loc=en_US'>this link</a> to do that.</p>
+<p>I&rsquo;m Michael Peyton Jones, and this is my blog. I&rsquo;m planning to use it for a variety of stuff, but I&rsquo;m also going to be using it as a way to keep people up to date with what I&rsquo;m doing in Australia. If that&rsquo;s you, then you can get a feed that will just get you those posts by clicking <a href="http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml">this link</a>. If you&rsquo;d like to subscribe by email instead, then use <a href="http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US">this link</a> to do that.</p>
 
-<p>TEST: $$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</p>]]></content>
+<p>TEST: <script type="math/tex">% &lt;![CDATA[
+\forall x, y : \mathbb{Z}, x > 3 \land y < 2 \Rightarrow x^2 - 2y > 5 %]]&gt;</script></p>
+
+]]></content>
   </entry>
   
 </feed>
