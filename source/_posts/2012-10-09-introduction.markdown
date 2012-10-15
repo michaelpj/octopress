@@ -4,6 +4,7 @@ title: "Introduction"
 date: 2012-10-09 16:35
 comments: true
 categories: [admin, Australia]
+author: Michael PJ
 ---
 
 Hi all!
