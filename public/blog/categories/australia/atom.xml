@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Australia | Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-10-14T22:15:45+01:00</updated>
+  <updated>2012-10-23T23:34:12+11:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -14,13 +14,39 @@
 
   
   <entry>
+    <title type="html"><![CDATA[First day at work]]></title>
+    <link href="http://termsandtruthconditions.herokuapp.com//blog/2012/10/23/first-day-at-work/"/>
+    <updated>2012-10-23T22:16:00+11:00</updated>
+    <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/23/first-day-at-work</id>
+    <content type="html"><![CDATA[<p>Today was my first day at Atlassian!</p>
+
+<p><img src="/images/welcome-pack.jpg" title="This was on my desk when I arrived&hellip; yes that is a Nerf gun!" ></p>
+
+<!-- more -->
+<p>Having managed to locate their offices, which they&rsquo;ve cunningly relocated (to <a href="https://maps.google.co.uk/maps?hl=en&amp;q=30+cambridge+street+enmore&amp;ie=UTF-8&amp;hq=&amp;hnear=0x6b12b038dc59e41f:0x8c7df8e24b3fe91d,30+Cambridge+St,+Enmore+NSW+2042,+Australia&amp;gl=uk&amp;ei=u9-DULq2GsKiigfrzYGQBw&amp;ved=0CCEQ8gEwAA">here</a>) as of a few weeks ago, I successfully made it into work. </p>
+
+<p>The Atlassian offices stretch over several floors: the floor with reception on has loads of communal space with pool and ping-pong tables, and a huge kitchen full of free food. If I end up getting in early enough for breakfast, I think I may end up eating two meals a day from there!</p>
+
+<p>The other floors are big, open-plan rooms (even the co-CEOs don&rsquo;t have offices!), with meeting rooms off to the sides for extended chats. Even the meeting rooms are cool: they&rsquo;re all named for geek references depending on their height. So the ones on the lowest floor are called &ldquo;Bag End&rdquo;, &ldquo;Rapture&rdquo; etc., whereas the top floor has the &ldquo;Normandy&rdquo;, &ldquo;Death Star&rdquo; etc. And all the doors have an appropriate stylised rendition of their name on them. They&rsquo;re quite good, I think Atlassian must have some pretty good artists and graphic designers around.</p>
+
+<p>I&rsquo;ve also now finally got to find out what I&rsquo;m going to be spending all my time doing. The current plan is for me to spend three months with the Performance team and three months with the OnDemand team. The Performance guys are a kind of free-floating team; they don&rsquo;t make any products that get sold to customers, but they spend a lot of time trying to help everyone else make their products better. The OnDemand team are responsible for Atlassian&rsquo;s SaaS (Software as a Service) products: basically, if you want to use the Atlassian products via the web and have them hosted by Atlassian, rather than running them yourself, then the OnDemand team handles that.</p>
+
+<p>My first project in the Performance team is going to be pretty open-ended. They&rsquo;ve got a lot of data about the usage and performance of their servers that hasn&rsquo;t really been properly mined yet, and they want me to have a go at trying to actually extract some useful knowledge from it. I have a feeling I may find myself once again cursing my lack of stats knowledge!</p>
+
+<p>In other news: I&rsquo;ve found somewhere to live, finally! Camping out in youth hostels was getting a bit tedious, and I&rsquo;ve actually been staying with some friends of my parents for the last couple of nights (big thanks to Manuel and Gabi for putting me up!). But I&rsquo;m now ensconced in a pretty good location, so hopefully that&rsquo;s mostly sorted.</p>
+
+<p>With the necessities looked after, I&rsquo;m also looking for more stuff to do around Sydney. I&rsquo;ve tracked down a choir: the <a href="http://www.sydneyphilharmonia.com.au/thechoirs.html">Sydney Philharmonia Choirs</a> look like they&rsquo;ve got a decent standard without being too serious. Most of the other decent ones I&rsquo;ve found look like they&rsquo;re more at the semi-pro level, and I&rsquo;m not sure I want <em>that</em> much involvement! In a fit of efficiency, I&rsquo;m auditioning tomorrow. </p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Introduction]]></title>
     <link href="http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction/"/>
-    <updated>2012-10-09T16:35:00+01:00</updated>
+    <updated>2012-10-09T16:35:00+11:00</updated>
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction</id>
     <content type="html"><![CDATA[<p>Hi all!</p>
 
-<p>I&rsquo;m Michael Peyton Jones, and this is my blog. I&rsquo;m planning to use it for a variety of stuff, but I&rsquo;m also going to be using it as a way to keep people up to date with what I&rsquo;m doing in Australia. If that&rsquo;s you, then you can get a feed that will just get you those posts by clicking <a href="/blog/categories/australia/atom.xml">this link</a>. If you&rsquo;d like to subscribe by email instead, then use <a href="http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US">this link</a> to do that.</p>
+<p>I&rsquo;m Michael Peyton Jones, and this is my blog. I&rsquo;m planning to use it for a variety of stuff, but I&rsquo;m also going to be using it as a way to keep people up to date with what I&rsquo;m doing in Australia. If that&rsquo;s you, then you can get a feed that will just get you those posts by clicking <a href="/blog/categories/australia/atom.xml">this link</a>. If you&rsquo;d like to subscribe by email instead, then use <a href="http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US">this link</a> to do that. If you&rsquo;re willing to take the risk of being subscribed to the whole blog (warning: probably irregular and inconsistent content!), then there&rsquo;s a RSS link in the navigation bar.</p>
 ]]></content>
   </entry>
   

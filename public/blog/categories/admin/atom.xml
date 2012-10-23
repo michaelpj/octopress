@@ -4,7 +4,7 @@
   <title><![CDATA[Category: admin | Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//blog/categories/admin/atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-10-14T22:15:45+01:00</updated>
+  <updated>2012-10-23T23:34:12+11:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -16,11 +16,11 @@
   <entry>
     <title type="html"><![CDATA[Introduction]]></title>
     <link href="http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction/"/>
-    <updated>2012-10-09T16:35:00+01:00</updated>
+    <updated>2012-10-09T16:35:00+11:00</updated>
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/09/introduction</id>
     <content type="html"><![CDATA[<p>Hi all!</p>
 
-<p>I&rsquo;m Michael Peyton Jones, and this is my blog. I&rsquo;m planning to use it for a variety of stuff, but I&rsquo;m also going to be using it as a way to keep people up to date with what I&rsquo;m doing in Australia. If that&rsquo;s you, then you can get a feed that will just get you those posts by clicking <a href="/blog/categories/australia/atom.xml">this link</a>. If you&rsquo;d like to subscribe by email instead, then use <a href="http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US">this link</a> to do that.</p>
+<p>I&rsquo;m Michael Peyton Jones, and this is my blog. I&rsquo;m planning to use it for a variety of stuff, but I&rsquo;m also going to be using it as a way to keep people up to date with what I&rsquo;m doing in Australia. If that&rsquo;s you, then you can get a feed that will just get you those posts by clicking <a href="/blog/categories/australia/atom.xml">this link</a>. If you&rsquo;d like to subscribe by email instead, then use <a href="http://feedburner.google.com/fb/a/mailverify?uri=AustraliaTermsAndTruthConditions&amp;loc=en_US">this link</a> to do that. If you&rsquo;re willing to take the risk of being subscribed to the whole blog (warning: probably irregular and inconsistent content!), then there&rsquo;s a RSS link in the navigation bar.</p>
 ]]></content>
   </entry>
   
