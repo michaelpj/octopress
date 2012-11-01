@@ -2,16 +2,18 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
-## -- Rsync Deploy config -- ##
+## -- Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "user@domain.com"
 ssh_port       = "22"
 document_root  = "~/website.com/"
 rsync_delete   = false
-deploy_default = "rsync"
+
+deploy_default = "heroku"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
@@ -238,6 +240,18 @@ task :rsync do
   end
   puts "## Deploying website via Rsync"
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+end
+
+desc "Deploy to Heroku"
+task :heroku do
+  puts "## Deploying to Heroku "
+  system "git add ."
+  puts "\n## Committing: Site updated at #{Time.now.utc}"
+  message = "Site updated at #{Time.now.utc}"
+  system "git commit -m '#{message}'"
+  puts "\n## Pushing to Heroku"
+  system "git push heroku #{deploy_branch}"
+  puts "\n## Heroku deploy complete"
 end
 
 desc "deploy public directory to github pages"
