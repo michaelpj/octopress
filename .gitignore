@@ -3,6 +3,7 @@
 .sass-cache
 .gist-cache
 .pygments-cache
+.preview_mode
 _deploys
 sass.old
 source.old

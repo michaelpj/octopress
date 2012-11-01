@@ -211,11 +211,11 @@ end
 desc "Default deploy task"
 task :deploy do
   # Check if preview posts exist, which should not be published
-  if File.exists?(".preview-mode")
-    puts "## Found posts in preview mode, regenerating files ..."
-    File.delete(".preview-mode")
-    Rake::Task[:generate].execute
-  end
+  #if File.exists?(".preview-mode")
+  #  puts "## Found posts in preview mode, regenerating files ..."
+  #  File.delete(".preview-mode")
+  #  Rake::Task[:generate].execute
+  #end
 
   Rake::Task[:copydot].invoke(source_dir, public_dir)
   Rake::Task["#{deploy_default}"].execute
