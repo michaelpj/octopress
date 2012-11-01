@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sculptures by the sea"
+title: "Sculptures by the Sea"
 date: 2012-10-28 23:36
 comments: true
 categories: Australia
