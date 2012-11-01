@@ -116,13 +116,13 @@ MathJax.Hub.Config({
 
 <div class="entry-content"><p><em>[This is the first of two posts I wrote on estimating the cost-effectiveness of the DCP organization, who themselves publish excellent reports on the cost-effectiveness of health interventions. It was originally published on the <a href="http://www.givingwhatwecan.org/blog/2012-10-27/estimating-the-effectiveness-of-dcp">Giving What We Can blog</a>.]</em></p>
 
-<!-- more -->
-
 <p>When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of <a href="http://www.dcp2.org/main/Home.html">the Disease Control Priorities Project</a>, which provide an analysis of the cost-effectiveness of a great number of health interventions.</p>
 
 <p>Given the value of this data, we might wonder just how valuable this information is, and whether it might be worth donating to DCP to produce more of it.</p>
 
 <p>In this post I will present a statistical model (designed by myself and Nick Dunkley) for estimating the effectiveness of donating to DCP. Although this is going to over-simplify the situation, it should be able to give us a ballpark estimate.</p>
+
+<!-- more -->
 
 <p>Here&rsquo;s the idea. Firstly, we assume that DCP has some number of followers who make their donation decisions based on DCP&rsquo;s recommendations; that is, they put their donations towards whatever intervention DCP recommends most highly. If DCP says the best thing is buying hang-gliders for kittens, then that&rsquo;s where they&rsquo;ll send their money. So the current situation would have all that money going towards the intervention that the DCP2 report claims is most effective. We&rsquo;ll refer to the money donated as DCP&rsquo;s &ldquo;money moved&rdquo;. Furthermore, we&rsquo;ll assume that this money is all translated into DALYs at the rate that DCP claims.</p>
 
@@ -148,7 +148,7 @@ MathJax.Hub.Config({
   <li>These results are not immediately applicable to charity-evaluators such as GiveWell. GiveWell looks at charities, not interventions, and we don&rsquo;t have a data-set for that in the way that we have for DCP. It may be that if we make some assumptions we might be able to adapt the data, but this is an open question.</li>
 </ul>
 
-<p><a href="/downloads/code/dcp-effectiveness-1.R">Script.</a></p>
+<p><a href="/downloads/code/dcp-effectiveness-1.R">R Script.</a></p>
 </div>
 
 
@@ -228,11 +228,7 @@ MathJax.Hub.Config({
       </li>
     
       <li class="post">
-        <a href="/blog/2012/10/19/the-value-of-truth/">The Value of Truth</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/15/the-value-of-truth/">The Value of Truth</a>
+        <a href="/blog/2012/10/09/introduction/">Introduction</a>
       </li>
     
   </ul>
@@ -244,7 +240,7 @@ MathJax.Hub.Config({
 
 <section>
   <h1>Tag Cloud</h1>
-    <span id="tag-cloud"><a href='/blog/categories/admin' style='font-size: 120.0%'>admin</a> <a href='/blog/categories/australia' style='font-size: 160.0%'>Australia</a> <a href='/blog/categories/effective-altruism' style='font-size: 120.0%'>effective altruism</a> <a href='/blog/categories/philosophy' style='font-size: 140.0%'>philosophy</a> </span>
+    <span id="tag-cloud"><a href='/blog/categories/admin' style='font-size: 120.0%'>admin</a> <a href='/blog/categories/australia' style='font-size: 160.0%'>Australia</a> <a href='/blog/categories/effective-altruism' style='font-size: 120.0%'>effective altruism</a> </span>
 </section>
 
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Australia | Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//blog/categories/australia/atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-11-01T19:49:14+11:00</updated>
+  <updated>2012-11-01T19:55:20+11:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -20,25 +20,25 @@
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/28/sculptures-by-the-sea</id>
     <content type="html"><![CDATA[<p>Around this time of year in Sydney they run a huge sculpture exhibition from Tamarara bay around the headland to Bondi beach. We had a work barbeque and expedition to see the sculptures, which were pretty awesome!</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG20121027115708.jpg Seriously, this is 20 minutes from the CBD! %}</p>
+<p><img src="/images/sculptures-by-the-sea/IMG20121027115708.jpg" title="Seriously, this is 20 minutes from the CBD!" ></p>
 
 <!-- more -->
 
 <p>Here are a few that I liked (apologies for the poor quality, my camera couldn&rsquo;t really cope with how sunny it was!):</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG<em>20121027</em>135836.jpg %}
+<p><img src="/images/sculptures-by-the-sea/IMG<em>20121027</em>135836.jpg">
 It&rsquo;s a giant 3d zipper&hellip; called &ldquo;Spinal cord&rdquo;? Okay, it&rsquo;s four people&rsquo;s spines being zipped together. That&rsquo;s a lot weirder.</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG<em>20121027</em>140705.jpg %}
+<p><img src="/images/sculptures-by-the-sea/IMG<em>20121027</em>140705.jpg">
 This looks like the shiny twins of the monoliths from <em>2001</em> decided they wanted a beach party. The effect of looking through is pretty cool, though.</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG<em>20121027</em>141359.jpg %}
+<p><img src="/images/sculptures-by-the-sea/IMG<em>20121027</em>141359.jpg">
 It&rsquo;s a naked couple on a donkey&hellip; with dog and rabbit heads.</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG<em>20121027</em>142547.jpg %}
+<p><img src="/images/sculptures-by-the-sea/IMG<em>20121027</em>142547.jpg">
 This was surprisingly effective juxtaposed against the spectacular view.</p>
 
-<p>{% img /images/sculptures-by-the-sea/IMG<em>20121027</em>144127.jpg %}
+<p><img src="/images/sculptures-by-the-sea/IMG<em>20121027</em>144127.jpg">
 A skeleton with a balance pole. Of course. Couldn&rsquo;t be having the poor guy falling off, could we?</p>
 
 ]]></content>
@@ -51,7 +51,7 @@ A skeleton with a balance pole. Of course. Couldn&rsquo;t be having the poor guy
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/23/first-day-at-work</id>
     <content type="html"><![CDATA[<p>Today was my first day at Atlassian!</p>
 
-<p>{% img /images/welcome-pack.jpg This was on my desk when I arrived&hellip; yes that is a Nerf gun! %}</p>
+<p><img src="/images/welcome-pack.jpg" title="This was on my desk when I arrived&hellip; yes that is a Nerf gun!" ></p>
 
 <!-- more -->
 <p>Having managed to locate their offices, which they&rsquo;ve cunningly relocated (to <a href="https://maps.google.co.uk/maps?hl=en&amp;q=30+cambridge+street+enmore&amp;ie=UTF-8&amp;hq=&amp;hnear=0x6b12b038dc59e41f:0x8c7df8e24b3fe91d,30+Cambridge+St,+Enmore+NSW+2042,+Australia&amp;gl=uk&amp;ei=u9-DULq2GsKiigfrzYGQBw&amp;ved=0CCEQ8gEwAA">here</a>) as of a few weeks ago, I successfully made it into work. </p>

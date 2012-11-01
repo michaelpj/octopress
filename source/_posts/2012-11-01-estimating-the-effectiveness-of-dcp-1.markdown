@@ -8,14 +8,13 @@ categories: [effective altruism]
 
 *[This is the first of two posts I wrote on estimating the cost-effectiveness of the DCP organization, who themselves publish excellent reports on the cost-effectiveness of health interventions. It was originally published on the [Giving What We Can blog](http://www.givingwhatwecan.org/blog/2012-10-27/estimating-the-effectiveness-of-dcp).]*
 
-<!-- more -->
-
-
 When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of [the Disease Control Priorities Project](http://www.dcp2.org/main/Home.html), which provide an analysis of the cost-effectiveness of a great number of health interventions.
 
 Given the value of this data, we might wonder just how valuable this information is, and whether it might be worth donating to DCP to produce more of it.
 
 In this post I will present a statistical model (designed by myself and Nick Dunkley) for estimating the effectiveness of donating to DCP. Although this is going to over-simplify the situation, it should be able to give us a ballpark estimate.
+
+<!-- more -->
 
 Here's the idea. Firstly, we assume that DCP has some number of followers who make their donation decisions based on DCP's recommendations; that is, they put their donations towards whatever intervention DCP recommends most highly. If DCP says the best thing is buying hang-gliders for kittens, then that's where they'll send their money. So the current situation would have all that money going towards the intervention that the DCP2 report claims is most effective. We'll refer to the money donated as DCP's "money moved". Furthermore, we'll assume that this money is all translated into DALYs at the rate that DCP claims.
 
