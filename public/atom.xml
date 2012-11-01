@@ -4,7 +4,7 @@
   <title><![CDATA[Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-11-01T22:35:13+11:00</updated>
+  <updated>2012-11-01T22:54:49+11:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -110,6 +110,155 @@ A skeleton with a balance pole. Of course. Couldn&rsquo;t be having the poor guy
 <p>In other news: I&rsquo;ve found somewhere to live, finally! Camping out in youth hostels was getting a bit tedious, and I&rsquo;ve actually been staying with some friends of my parents for the last couple of nights (big thanks to Manuel and Gabi for putting me up!). But I&rsquo;m now ensconced in a pretty good location, so hopefully that&rsquo;s mostly sorted.</p>
 
 <p>With the necessities looked after, I&rsquo;m also looking for more stuff to do around Sydney. I&rsquo;ve tracked down a choir: the <a href="http://www.sydneyphilharmonia.com.au/thechoirs.html">Sydney Philharmonia Choirs</a> look like they&rsquo;ve got a decent standard without being too serious. Most of the other decent ones I&rsquo;ve found look like they&rsquo;re more at the semi-pro level, and I&rsquo;m not sure I want <em>that</em> much involvement! In a fit of efficiency, I&rsquo;m auditioning tomorrow. </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Value of Truth]]></title>
+    <link href="http://termsandtruthconditions.herokuapp.com//blog/2012/10/19/the-value-of-truth/"/>
+    <updated>2012-10-19T15:25:00+11:00</updated>
+    <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/19/the-value-of-truth</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>The Will to Truth, which is to tempt us to many a hazardous enterprise, the famous Truthfulness of which all philosophers have hitherto spoken with respect, what questions has this Will to Truth not laid before us! What strange, perplexing, questionable questions! &hellip; In fact we made a long halt at the question as to the origin of this Will-until at last we came to an absolute standstill before a yet more fundamental question. We inquired about the VALUE of this Will. Granted that we want the truth: WHY NOT RATHER untruth? And uncertainty? Even ignorance? &ndash; <em>Beyond Good and Evil</em>, 1.1</p>
+</blockquote>
+
+<p>Of all the insights I gained from reading Nietzsche (almost all, I hasten to add, due to him making me think, not being <em>right</em>), the one that has stuck with me the most is almost the first thing you read when you open <em>Beyond Good and Evil</em>. Nietzsche raises a question that I don&rsquo;t think had even occurred to me the first time I read it: what is the value of truth?</p>
+
+<!-- more -->
+<p>Nietzsche is mostly interested in slagging off all past philsophers (going so far as to name names, extensively), but the starting point of his critique is the claim that all philosophical activity rests on a set of unjustified presumptions. To even get started doing philosophy, we have to believe that what we are doing is <em>worthwhile</em>, that it is <em>good</em>. And the most basic of these presuppositions is that it is good to believe the truth. </p>
+
+<p>This is not normally a controversial claim. One of the fundamental tenets of modern liberal thought is that the truth is good for us (&ldquo;The truth will set you free&rdquo;). But <em>why</em> is that? As Nietzsche says: &ldquo;Why nor rather untruth? And uncertainty? Even ignorance?&rdquo;. To refuse even to ask these questions is to simply <em>fetishize</em> truth.</p>
+
+<blockquote>
+  <p>In spite of all the value which may belong to the true, the positive, and the unselfish, it might be possible that a higher and more fundamental value for life generally should be assigned to pretence, to the will to delusion, to selfishness, and cupidity. &ndash; <em>BGE</em>, 1.2</p>
+</blockquote>
+
+<p>We needn&rsquo;t go the whole way with Nietzsche here, but he paints the picture well enough. It certainly seems possible that it could be bad to believe the truth; or at least we haven&rsquo;t argued that it can&rsquo;t be, yet.</p>
+
+<p>The second strand of Nietzsche&rsquo;s argument is to claim that the only way we can decide this issue is by assessing whether the pursuit of the truth furthers our values, and thus at the very foundation of philosophy we have slipped in a <em>moral</em> premiss.</p>
+
+<blockquote>
+  <p>It has gradually become clear to me what every great philosophy up till now has consisted of - namely, the confession of its originator, and a species of involuntary and unconscious auto-biography; and moreover that the moral (or immoral) purpose in every philosophy has constituted the true vital germ out of which the entire plant has always grown. Indeed, to understand how the abstrusest metaphysical assertions of a philosopher have been arrived at, it is always well (and wise) to first ask oneself: &ldquo;What morality do they (or does he) aim at?&rdquo; &ndash; <em>BGE</em>, 1.6</p>
+</blockquote>
+
+<p>Nietzsche, then, leaves us with two questions:</p>
+
+<ol>
+  <li>Is the truth valuable?</li>
+  <li>How are we to decide that question?</li>
+</ol>
+
+<p>TODO: talk about 2 first, it&rsquo;s more fundamental!</p>
+
+<p>1.</p>
+
+<p>In general, if we&rsquo;re thinking about how we should behave, there are two kinds of considerations we could appeal to: prudential and moral. As I&rsquo;ve argued, there&rsquo;s no way around making assumptions about these, so let&rsquo;s make some! I&rsquo;m going try and get away with using examples that are as general as possible, but I&rsquo;m going to assume that maximizing expected satisfaction of our preferences is what we ought, prudentially, to do, and that maximizing some kind of aggregation of people&rsquo;s personal welfare is what we ought, morally, to do.<sup id="fnref:consequentialism"><a href="#fn:consequentialism" rel="footnote">1</a></sup> I&rsquo;m going to use moral and prudential examples pretty interchangeably; for a consequentialist the two are fairly continous, it&rsquo;s just a case of changing whether one is aiming only at one&rsquo;s own good, or at everyone&rsquo;s good. </p>
+
+<p>On the face of it, it seems pretty weird that believing the truth might be bad for you. Knowing more means that your map of the world matches the world better, and so you can act with more confidence in how your actions will affect the world, and hence achieve your aims better. The <em>benefits</em> of believing the truth in general seem pretty clear. There&rsquo;s even a theorem about it proved by I.J. Good: for a Bayesian agent, gathering more information before acting is always the option that maximizes utility, so long as the cost of doing so is sufficiently small.<sup id="fnref:Good"><a href="#fn:Good" rel="footnote">2</a></sup> In particular, if you could get more information for free, you should always do so!</p>
+
+<p>On the other hand, it doesn&rsquo;t seem that hard to come up with a counterexample:</p>
+
+<blockquote>
+  <p><strong>Omega 1</strong>: </p>
+
+  <p>An nigh-omnipotent extra-galactic superintelligence named Omega threatens to torture everyone on Earth for eternity unless, by next Tuesday, you come to believe that you are a salmon.</p>
+</blockquote>
+
+<p>In this case, it seems to be pretty clear that it would be better to believe that you are a salmon: while that might make life pretty difficult for you, it&rsquo;s clearly better than eternal torture for everyone. So what&rsquo;s going on?</p>
+
+<p>There are a couple of ways in which Good&rsquo;s theorem can fail to apply, and these nicely split things up:</p>
+
+<ol>
+  <li>The agent may not be a perfect Bayesian agent.</li>
+  <li>The act of gathering information, or the simple possession of it, may change the situation.</li>
+</ol>
+
+<p>Both of these can apply. The first is less interesting: obviously humans are nowehre near perfect Bayesian agents, and so there is no guarantee that gaining more information will actually lead to us making better decisions. There are a whole host of biases that interfere with good decision-making; the <a href="http://wiki.lesswrong.com/wiki/Bias">LessWrong Wiki</a> has a good collection of material on the topic. There are plenty of wholly mundane examples:</p>
+
+<blockquote>
+  <p><strong>Depression</strong>: </p>
+
+  <p>Your boss informs you that you&rsquo;re about to be fired in a wave of redundancies. But if you work extremely hard he might be able to justify keeping you. However, he can only do this for about 1% of the employees. Instead of working hard, this knowledge sends you into a fit of depression, and you do nothing.</p>
+</blockquote>
+
+<p>(Strictly, it&rsquo;s a bit unclear which category this falls under. Is it a case of you failing at acting so as to best pursue your goals, or is it an example of your epistemic state affecting your options by rendering some of them emotionally impossible? In general, there isn&rsquo;t always going to be a clear-cut distinction here.)</p>
+
+<p>The other possibility is more interesting, and it&rsquo;s what&rsquo;s going on in Omega 1. Sometimes an agent&rsquo;s <em>own epistemic state</em> can affect their situation. In the Omega 1 case, Omega explicitly bases its actions upon your beliefs. But these kind of problems, where what is in your head affects what is outside, have bedevilled decision theorists and moral philsophers for a long time. For which reason we&rsquo;re going to take a whirlwind detour, after whch hopefully we&rsquo;ll be able to draw out some similarities.</p>
+
+<h2 id="decision-theory">Decision theory</h2>
+
+<p>In decision theory, matters get very complicated once it is possible for the situation to depend upon the mental states of the agents. Often the problems faced are actually more general than what we&rsquo;ve been considering so far: rather than just the agent&rsquo;s epistemic state, the situation may be conditional on some other aspect of their nature. Consider the following famous example:</p>
+
+<blockquote>
+  <p><strong>Omega 2 (Newcomb&rsquo;s Problem)</strong>: </p>
+
+  <p>Omega offers you the chance to take one or both of two boxes, A and B. B contains $1000 no matter what. A contains $1 million iff Omega predicts that you will take only box A. (Omega is, as far as you know, an infallible predictor).</p>
+</blockquote>
+
+<p>In this case, Omega&rsquo;s actions are conditional on the agent&rsquo;s <em>decision procedure</em>: if I am the sort of agent who will take only box A in this circumstance, then Omega will fill it with $1 million, otherwise not. Newcomb&rsquo;s problem is famous for tying decision theories in knots. Under many analyses it seems obvious that one should two-box: at the time you make your decision, either Omega has filled box A or not; either way, you come out $1000 ahead if you take both boxes. However, annoyingly, agents who reason like this will end up with only $1000, whereas those who one-box will (entirely predictably) end up with the million.</p>
+
+<p>In general, situations like this where it&rsquo;s advantageous to behave otherwise than simply maximizing for the situation one is currently in can be handled by making <em>precommitments</em>. Consider a simpler example:</p>
+
+<blockquote>
+  <p><strong>Chicken</strong>: </p>
+
+  <p>You and an advesary are competing in a game of chicken for a great prize. The rules are as follows: you both drive towards each other as fast as possible, and the first person who swerves aside loses.</p>
+</blockquote>
+
+<p>If you are given a chance to prepare for such a contest, what should you do? You should drink yourself blind, tear out the steering wheel and blindfold yourself. If your opponent is truly convinced that you <em>will not</em> turn aside, then their options are much simpler: turn aside themselves, or cause both of you to die. If they&rsquo;re behaving rationally, then they&rsquo;ll turn aside, and you will claim your prize (unless they managed to tear out their steering wheel first!). Similarly, if you know that Omega is coming, then you should swear blind that you will one-box, perhaps going so far as to get a reliable third party to promise to shoot you if you do not do so. That is, you should <em>make yourself</em> into the kind of agent that will one-box, and hence end up with the money.</p>
+
+<p>Precommitments can be counter-intuitive because they tend to involve committing yourself in the future to one course of action, even though at that point it would be better for you to take another one. For another example, consider:</p>
+
+<blockquote>
+  <p><strong>Hitch-hiker</strong>: </p>
+
+  <p>You are stuck in the desert with no source of water or means of communication, without which you will surely die. A passer-by offers to drive you into town for $100. You don&rsquo;t have the money on you, and you are a perfectly selfish person who acts only as will best further their interests. So you know that once you get back to town you will refuse to pay your rescuer, as there would then be no downside for you. Unfortunately, you&rsquo;re also a terrible liar, and no matter how you promise, your potential rescuer believes (correctly) that you won&rsquo;t pay him. And so you are left in the desert to die.<sup id="fnref:Parfit"><a href="#fn:Parfit" rel="footnote">3</a></sup></p>
+</blockquote>
+
+<p>In this case, being able to precommit to paying the passer-by, even though once you get back to town such an action would be sub-optimal for you, is an extremely good idea, if you can manage it! Indeed, arguably one of the useful features of social norms in favour of keeping your promises is that it helps us negotiate this kind of situation.<sup id="fnref:TDT"><a href="#fn:TDT" rel="footnote">4</a></sup> </p>
+
+<p>It&rsquo;s no coincidence that the slogan I&rsquo;ve given you for making general precommitments is one of the informal ways of understanding what&rsquo;s going on with TDT, a decision procedure invented by Eliezer Yudkowsky for dealing with these kinds of problems. </p>
+
+<h2 id="moral-philosophy">Moral philosophy</h2>
+
+<p>In modern discussions about consequentialism, much ink has been spilt worrying about what consequentialist agents would be like. In particular, it seems like a &ldquo;perfect&rdquo; consequentialist agent (one who always tried to act so as to maximize the good) would be a bit of a dick. Constantly calculating whether the consequences of one&rsquo;s actions are optimal sometimes seems like fundamentally the wrong attitude to take, particularly in many human relationships. It seems hard to see how such a person could, for example, really be in <em>love</em>. (&ldquo;I nearly got you a birthday present, darling, but then I realised the money would do more good if I sent it to starving children in Africa&rdquo;). Even if there were no morally overriding constraints, such a person might just be constitutionally incapable of loving. (&ldquo;I decided nobody else needed the money more, so I actually bought you a present!&rdquo;) This seems bad! <sup id="fnref:BW"><a href="#fn:BW" rel="footnote">5</a></sup></p>
+
+<p>Again, there are a couple of ways in which being such an agent could lead to bad consequences. Firstly, calculating consequences is hard, and can be slow or just downright intractable. There are times when the best thing to do is act swiftly, and an agent with a simple dispostion to do so would be better overall than one who calculated. For example, taking the time to calculate whether it is worth saving a drowning person may simply result in them dying. In this case adopting a simple heuristic - save people where there&rsquo;s trivial inconvenience - may lead to much better outcomes in general.</p>
+
+<p>On the other hand, </p>
+
+<p>And behind all logic and its seeming sovereignty of movement, there are valuations, or to speak more plainly, physiological demands, for the maintenance of a definite mode of life For example, that the certain is worth more than the uncertain, that illusion is less valuable than &ldquo;truth&rdquo;&hellip;</p>
+
+<p>The falseness of an opinion is not for us any objection to it: it is here, perhaps, that our new language sounds most strangely. The question is, how far an opinion is life-furthering, life-preserving, species-preserving, perhaps species-rearing&hellip;</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:consequentialism">
+      <p>Yep, I&rsquo;m assuming some kind of consequentialism here. If you&rsquo;re a non-consequentialist, a lot of what I&rsquo;m going to say won&rsquo;t apply to you. At some point I&rsquo;ll try and present some more argument for why you should be a consequentialist, but in the mean time you can try <a href="http://www.raikoth.net/consequentialism.html">Yvain&rsquo;s Consequentialism FAQ</a>.<a href="#fnref:consequentialism" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:Good">
+      <p>Good, I.J. (1967) QOn the Principle of Total Evidence.<a href="#fnref:Good" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:Parfit">
+      <p>This example comes from Parfit&rsquo;s <em>Reasons and Persons</em> - Parfit was one of the first moral philosophers to discuss the kind of &ldquo;rational irrationality&rdquo; that we&rsquo;re talking about here.<a href="#fnref:Parfit" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:TDT">
+      <p>The problem with precommitments is that they need to be made beforehand. They often don&rsquo;t work if you&rsquo;re already facing the situation (or worse, if the other guy commits before you do!). We might then wonder if there&rsquo;s any way to reap the amazing benefits of precommitments without having to know what&rsquo;s coming. We could try and work out lots of general precommitments that we could make, which is hard. Or we could just make a <em>fully general</em> precommitment: say something like &ldquo;I will always act in the way that I would like to have precommitted to act&rdquo;. If you can truly precommit in this way, then you can come out on top in a whole bunch of tricky situations.<a href="#fnref:TDT" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:BW">
+      <p>This kind of argument is usually sourced from Bernard Williams (AKA the most overrated philosopher ever), and is often phrased in terms of &ldquo;integrity&rdquo;. The classic consequentialist response is Raliton&rsquo;s <em>Alienation, Consequentialism and the Demands of Morality</em>.<a href="#fnref:BW" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Value of Truth]]></title>
+    <link href="http://termsandtruthconditions.herokuapp.com//blog/2012/10/15/the-value-of-truth/"/>
+    <updated>2012-10-15T15:16:00+11:00</updated>
+    <id>http://termsandtruthconditions.herokuapp.com//blog/2012/10/15/the-value-of-truth</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
