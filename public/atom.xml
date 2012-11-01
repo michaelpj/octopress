@@ -4,7 +4,7 @@
   <title><![CDATA[Terms and Truth Conditions]]></title>
   <link href="http://termsandtruthconditions.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://termsandtruthconditions.herokuapp.com//"/>
-  <updated>2012-11-01T22:05:45+11:00</updated>
+  <updated>2012-11-01T22:12:59+11:00</updated>
   <id>http://termsandtruthconditions.herokuapp.com//</id>
   <author>
     <name><![CDATA[Michael Peyton Jones]]></name>
@@ -20,7 +20,7 @@
     <id>http://termsandtruthconditions.herokuapp.com//blog/2012/11/01/estimating-the-effectiveness-of-dcp-1</id>
     <content type="html"><![CDATA[<p><em>[This is the first of two posts I wrote on estimating the cost-effectiveness of the DCP organization, who themselves publish excellent reports on the cost-effectiveness of health interventions. It was originally published on the <a href="http://www.givingwhatwecan.org/blog/2012-10-27/estimating-the-effectiveness-of-dcp">Giving What We Can blog</a>.]</em></p>
 
-<p>When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of <a href="http://www.dcp2.org/main/Home.html">the Disease Control Priorities Project</a>, which provide an analysis of the cost-effectiveness of a great number of health interventions.</p>
+<p>When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of the <a href="http://www.dcp2.org/main/Home.html">Disease Control Priorities Project</a>, which provide an analysis of the cost-effectiveness of a great number of health interventions.</p>
 
 <p>Given the value of this data, we might wonder just how valuable this information is, and whether it might be worth donating to DCP to produce more of it.</p>
 

@@ -8,7 +8,7 @@ categories: [effective altruism]
 
 *[This is the first of two posts I wrote on estimating the cost-effectiveness of the DCP organization, who themselves publish excellent reports on the cost-effectiveness of health interventions. It was originally published on the [Giving What We Can blog](http://www.givingwhatwecan.org/blog/2012-10-27/estimating-the-effectiveness-of-dcp).]*
 
-When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of [the Disease Control Priorities Project](http://www.dcp2.org/main/Home.html), which provide an analysis of the cost-effectiveness of a great number of health interventions.
+When searching for high-effectiveness charities, there are a few resources that incredibly useful. One of those is the reports of the [Disease Control Priorities Project](http://www.dcp2.org/main/Home.html), which provide an analysis of the cost-effectiveness of a great number of health interventions.
 
 Given the value of this data, we might wonder just how valuable this information is, and whether it might be worth donating to DCP to produce more of it.
 
