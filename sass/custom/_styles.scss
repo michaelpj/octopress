@@ -5,6 +5,8 @@ body{
   background-color: #ffffff;
 }
 
+
+
 #footnotify_targets_holder,
 #footnotify_holder,
 #footnotify_arrow{
@@ -20,6 +22,11 @@ body{
 #footnotify_arrow{
   font-size: 12px !important;
   letter-spacing: -3px !important;
+}
+
+div.footnotes {
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 
 // This contains a filthy hack to override a mysterious inline styling that was

@@ -51,7 +51,7 @@ times_til_improvement <- rep(0,res)
 
 for(l in 1:res){
 
-	stores <- 1000
+	stores <- 10000
 	repeat_times <- 10
 	# proportion of variance that is due to DCP error
 	error_proportion <- (l - 0.5)/res
@@ -130,7 +130,7 @@ abline(h=0,lty=2)
 lines((1:99)/100,dbeta((1:99)/100,2,4),col=1)
 lines((1:res-0.5)/res,current_benefit,col=3)
 #lines((1:99)/100,dbeta((1:99)/100,3,3),col=3)
-legend(0.6,4.7,c("DCP donations","Direct donations","Variance prior"),lty=c(1,1,1),col=c(2,3,1))
+legend("topright",c("DCP donations","Direct donations","Variance prior"),lty=c(1,1,1),col=c(2,3,1))
 dev.off()
 
 mean(dcp_benefit*variance_prior)
