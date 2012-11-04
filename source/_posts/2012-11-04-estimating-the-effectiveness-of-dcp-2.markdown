@@ -6,7 +6,7 @@ comments: true
 categories: [effective altruism]
 ---
 
-*[This is the second of two posts I wrote on estimating the cost-effectiveness of the DCP organization, who themselves publish excellent reports on the cost-effectiveness of health interventions. It was originally published on the [Giving What We Can blog](http://www.givingwhatwecan.org/blog/2012-11-01/estimating-the-effectiveness-of-dcp-2).]*
+*[This is the second of two posts I wrote on estimating the cost-effectiveness of the DCP organization.. It was originally published on the [Giving What We Can blog](http://www.givingwhatwecan.org/blog/2012-11-01/estimating-the-effectiveness-of-dcp-2).]*
 
 Warning: I'm now going to start assuming some serious statistics knowledge! Most readers should not expect to be able to follow the guts of what is being done, but the bottom line should still make sense. As before, we're using R to do most of the work, and the script is [attached](/downloads/code/dcp-effectiveness-2.R).
 
