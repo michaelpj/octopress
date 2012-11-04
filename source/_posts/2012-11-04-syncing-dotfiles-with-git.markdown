@@ -15,7 +15,8 @@ Anyway, part of using an editor like Vim is building up a bunch of settings for 
 So naturally, when I fired up Vim at work and started writing, the first thing I get is
 
     Look at me writing some text!
-    :WQ::asd;lfsgihaspoihtasdophif
+    :WQ
+    ::asd;lfsgihaspoihtasdophif
 
 {% img center /images/rageface.png %}
 
