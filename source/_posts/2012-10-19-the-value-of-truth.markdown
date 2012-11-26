@@ -25,6 +25,8 @@ The second strand of Nietzsche's argument is to claim that the only way we can d
 
 >It has gradually become clear to me what every great philosophy up till now has consisted of - namely, the confession of its originator, and a species of involuntary and unconscious auto-biography; and moreover that the moral (or immoral) purpose in every philosophy has constituted the true vital germ out of which the entire plant has always grown. Indeed, to understand how the abstrusest metaphysical assertions of a philosopher have been arrived at, it is always well (and wise) to first ask oneself: "What morality do they (or does he) aim at?" -- *BGE*, 1.6
 
+That is, before enquiry can even begin, there must be some kind of value-judgement made.
+
 Nietzsche, then, leaves us with two questions:
 
 1. Is the truth valuable?
@@ -32,7 +34,7 @@ Nietzsche, then, leaves us with two questions:
 
 TODO: talk about 2 first, it's more fundamental!
 
-1.
+## Is the truth valuable?
 
 In general, if we're thinking about how we should behave, there are two kinds of considerations we could appeal to: prudential and moral. As I've argued, there's no way around making assumptions about these, so let's make some! I'm going try and get away with using examples that are as general as possible, but I'm going to assume that maximizing expected satisfaction of our preferences is what we ought, prudentially, to do, and that maximizing some kind of aggregation of people's personal welfare is what we ought, morally, to do.[^consequentialism] I'm going to use moral and prudential examples pretty interchangeably; for a consequentialist the two are fairly continous, it's just a case of changing whether one is aiming only at one's own good, or at everyone's good. 
 
@@ -53,9 +55,9 @@ In this case, it seems to be pretty clear that it would be better to believe tha
 There are a couple of ways in which Good's theorem can fail to apply, and these nicely split things up:
 
 1. The agent may not be a perfect Bayesian agent.
-2. The act of gathering information, or the simple possession of it, may change the situation.
+2. The act of gathering information, or the simple possession of it, may affect the outcome of the situation.
 
-Both of these can apply. The first is less interesting: obviously humans are nowehre near perfect Bayesian agents, and so there is no guarantee that gaining more information will actually lead to us making better decisions. There are a whole host of biases that interfere with good decision-making; the [LessWrong Wiki](http://wiki.lesswrong.com/wiki/Bias) has a good collection of material on the topic. There are plenty of wholly mundane examples:
+Both of these can apply. The first is less interesting: obviously humans are nowhere near perfect Bayesian agents, and so there is no guarantee that gaining more information will actually lead to us making better decisions. There are a whole host of biases that interfere with good decision-making; the [LessWrong Wiki](http://wiki.lesswrong.com/wiki/Bias) has a good collection of material on the topic. There are plenty of wholly mundane examples:
 
 >**Depression**: 
 >
@@ -65,7 +67,7 @@ Both of these can apply. The first is less interesting: obviously humans are now
 
 The other possibility is more interesting, and it's what's going on in Omega 1. Sometimes an agent's *own epistemic state* can affect their situation. In the Omega 1 case, Omega explicitly bases its actions upon your beliefs. But these kind of problems, where what is in your head affects what is outside, have bedevilled decision theorists and moral philsophers for a long time. For which reason we're going to take a whirlwind detour, after whch hopefully we'll be able to draw out some similarities.
 
-## Decision theory
+### Decision theory
 
 In decision theory, matters get very complicated once it is possible for the situation to depend upon the mental states of the agents. Often the problems faced are actually more general than what we've been considering so far: rather than just the agent's epistemic state, the situation may be conditional on some other aspect of their nature. Consider the following famous example:
 
@@ -93,9 +95,10 @@ Precommitments can be counter-intuitive because they tend to involve committing 
 
 In this case, being able to precommit to paying the passer-by, even though once you get back to town such an action would be sub-optimal for you, is an extremely good idea, if you can manage it! Indeed, arguably one of the useful features of social norms in favour of keeping your promises is that it helps us negotiate this kind of situation.[^TDT] 
 
-[^TDT]: The problem with precommitments is that they need to be made beforehand. They often don't work if you're already facing the situation (or worse, if the other guy commits before you do!). We might then wonder if there's any way to reap the amazing benefits of precommitments without having to know what's coming. We could try and work out lots of general precommitments that we could make, which is hard. Or we could just make a *fully general* precommitment: say something like "I will always act in the way that I would like to have precommitted to act". If you can truly precommit in this way, then you can come out on top in a whole bunch of tricky situations.
+[^TDT]: 
+    The problem with precommitments is that they need to be made beforehand. They often don't work if you're already facing the situation (or worse, if the other guy commits before you do!). We might then wonder if there's any way to reap the amazing benefits of precommitments without having to know what's coming. We could try and work out lots of general precommitments that we could make, which is hard. Or we could just make a *fully general* precommitment: say something like "I will always act in the way that I would like to have precommitted to act". If you can truly precommit in this way, then you can come out on top in a whole bunch of tricky situations.
 
-It's no coincidence that the slogan I've given you for making general precommitments is one of the informal ways of understanding what's going on with TDT, a decision procedure invented by Eliezer Yudkowsky for dealing with these kinds of problems. 
+    It's no coincidence that the slogan I've given you for making general precommitments is one of the informal ways of understanding what's going on with TDT, a decision procedure invented by Eliezer Yudkowsky for dealing with these kinds of problems. 
 
 ## Moral philosophy
 
