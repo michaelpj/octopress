@@ -53,7 +53,7 @@ Look at that, there are those funny words again. But what on _earth_ do contrava
 Good question.
 
 ## Subtyping ##
-The key feature of Scala, for our purposes, is that it's a language with _subtyping_. Classes (types) can be sub- or super- types of other classes. This gives us the familiar idea of a class hierarchy. Looking at it mathematically, we can say that we have a relation \\(<:\\) between types that acts as a [partial order](http://en.wikipedia.org/wiki/Partially_ordered_set#Formal_definition). Here comes neat Category Trick no. 1: we can view any partially ordered set as a category! The objects are the objects, and we have an arrow \\(A \rightarrow B\\) iff \\(A <: B\\). This is a bit weird, because we're only ever going to have one arrow between objects, and they're not really "functions" any more, but all the formal machinery still works.[^po]
+The key feature of Scala, for our purposes, is that it's a language with _subtyping_. Classes (types) can be sub- or super- types of other classes. This gives us the familiar idea of a class hierarchy. Looking at it mathematically, we can say that we have a relation \\(<:\\) between types that acts as a [partial order](http://en.wikipedia.org/wiki/Partially_ordered_set#Formal_definition). Here comes neat Category Theory Trick no. 1: we can view any partially ordered set as a category! The objects are the objects, and we have an arrow \\(A \rightarrow B\\) iff \\(A <: B\\). This is a bit weird, because we're only ever going to have one arrow between objects, and they're not really "functions" any more, but all the formal machinery still works.[^po]
 
 [^po]: Crucially, we can use the relation to give us our arrows because it's transitive, and hence composition will work properly.
 
@@ -114,6 +114,7 @@ How do I know this? Because of the variance annotations on ```Function1```. The 
 
 The reason why ```Function1``` behaves in this way is a bit subtle, but makes sense if you think about the way substitution has to work when you have subtyping. If you have a function from ```A``` to ```B```, what can you substitue for it? Anything you put in its place must make _fewer_ requirements on it's input type; since the function can't, for example, get away with calling a method that only exists on subtypes of ```A```. On the other hand, it must return a type at least as specialised as ```B```, since the _caller_ of the function may be expecting all the methods on ```B``` to be available.
 
+## Function Functors ##
 There's actually a nice category theory justification for why things have to be this way. In general, for any category \\(\mathcal{C}\\) we can also construct a category of the Hom-sets of \\(\mathcal{C}\\). Functions between these sets will just be higher-order functions that turn functions into different functions. There is then an obvious functor, \\(Hom(-, -)\\) that takes two objects A and B and produces \\(Hom(A, B)\\). The Hom-functor is a bit tricky because it's a _bifunctor_: it takes two arguments. The easiest way to deal with it is to sort of "partially apply" it and look at how it behaves on each of its arguments individually.
 
 So \\(Hom(A, -)\\) takes an object B to the set of functions from A to B. How does it act on functions? If we have a morphism \\(f:B \rightarrow B'\\) we need a function \\(Hom(A, f): Hom(A, B) \rightarrow Hom(A, B')\\). The obvious definition is
@@ -134,6 +135,7 @@ where g is in \\(Hom(B', B)\\), rather than \\(Hom(A, B)\\). So \\(Hom(-, B)\\) 
 
 This is actually a more general result, since it applies in any category, and not just in the category of types with subtyping. Cool!
 
+## Back to Earth ##
 Okay, so functions in Scala have these weird variance properties. But from a theoretical point of view, methods are just functions, and so they ought to have the same variance properties, even though we can't see them (methods don't have a trait in Scala!). 
 
 So we can now see why we got that cryptic compile error. We declared that ```A``` was covariant in our class, and also that ```set``` takes a parameter of type ```A```. But then, for some ```B <: A``` we could replace an instance of ```Box[A]``` with an instance of ```Box[B]```, and hence an instance of ```Box[A].set(x)``` with ```Box[B].set(x)```, where ```x:B```. But ```set[A]``` _can't_ be replaced by ```set[B]```  as an argument, for the reasons we disucussed above; at best it can be contravariant. So this would allow us to do stuff we shouldn't be able to do. Likewise, if we declared ```A``` as _contravariant_ then we would run into conflict with the _return_ type of ```set```. So it looks like we have to make ```A``` invariant.
