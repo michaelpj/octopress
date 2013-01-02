@@ -57,7 +57,7 @@ The key feature of Scala, for our purposes, is that it's a language with _subtyp
 
 [^po]: Crucially, we can use the relation to give us our arrows because it's transitive, and hence composition will work properly.
 
-Now some type constructors on this category still look like functors. They map objects to other objects, and if one of those objects is a subtype of the other, then they may or may not impose a relationship between the mapped objects. [Really need diagram here]
+Now some type constructors on this category still look like functors. They map objects to other objects, and if one of those objects is a subtype of the other, then they may or may not impose a relationship between the mapped objects.
 
 This is where the Scala type annotations come in. When we declare ```List[A+]```, we are saying that ```List``` is covariant in the parameter ```A```.[^parameters] What that means is that it takes a type, say ```Parent```, to a new type ```List[Parent]```, and if ```Child``` is a subtype of ```Parent```, then ```List[Child]``` will be a subtype of ```List[Parent]```. If we'd declared ```List``` to be _contravariant_ (```List[-A]```), then ```List[Child]``` would be a _supertype_ of ```List[Parent]```.
 
@@ -143,7 +143,7 @@ So we can now see why we got that cryptic compile error. We declared that ```A``
 As an aside, this is why it's an absolutely terrible idea that Java's arrays are covariant. That means that you can write code like the following:
 
 ``` java Unsound covariant arrays
-int[] ints = [1,2]
+Integer[] ints = [1,2]
 Object[] objs = ints
 objs[0] = "I'm an integer!"
 ```
