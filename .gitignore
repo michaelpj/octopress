@@ -13,4 +13,3 @@ vendor
 node_modules
 *.swp
 public
-*.lock
