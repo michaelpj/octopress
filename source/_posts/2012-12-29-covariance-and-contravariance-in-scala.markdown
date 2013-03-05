@@ -59,7 +59,7 @@ The key feature of Scala, for our purposes, is that it's a language with _subtyp
 
 Now some type constructors on this category still look like functors. They map objects to other objects, and if one of those objects is a subtype of the other, then they may or may not impose a relationship between the mapped objects.
 
-This is where the Scala type annotations come in. When we declare ```List[A+]```, we are saying that ```List``` is covariant in the parameter ```A```.[^parameters] What that means is that it takes a type, say ```Parent```, to a new type ```List[Parent]```, and if ```Child``` is a subtype of ```Parent```, then ```List[Child]``` will be a subtype of ```List[Parent]```. If we'd declared ```List``` to be _contravariant_ (```List[-A]```), then ```List[Child]``` would be a _supertype_ of ```List[Parent]```.
+This is where the Scala type annotations come in. When we declare ```List[+A]```, we are saying that ```List``` is covariant in the parameter ```A```.[^parameters] What that means is that it takes a type, say ```Parent```, to a new type ```List[Parent]```, and if ```Child``` is a subtype of ```Parent```, then ```List[Child]``` will be a subtype of ```List[Parent]```. If we'd declared ```List``` to be _contravariant_ (```List[-A]```), then ```List[Child]``` would be a _supertype_ of ```List[Parent]```.
 
 [^parameters]: Yes, there can be more than one parameter. Don't worry about it for now.
 
