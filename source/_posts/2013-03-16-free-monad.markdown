@@ -38,7 +38,7 @@ This is bad. We _really_ don't want to have to break out of monadic style arbitr
 
 ### A solution? ### 
 
-I acutally hit this problem at work, and I popped into the #scalaz IRC room to seek help. Naturally, what I got was a somewhat cryptic comment from Tony Morris that "the Free monad" was what I needed, but this was enough to put me on the trail. And yes, it does solve our problem, but as ever, it's no fun if we don't delve into the theory for a bit. So humour me for a while (or you can skip ahead to the bit where I tell you how to [fix the problem](#solution)).
+I actually hit this problem at work, and I popped into the #scalaz IRC room to seek help. Naturally, what I got was a somewhat cryptic comment from Tony Morris that "the Free monad" was what I needed, but this was enough to put me on the trail. And yes, it does solve our problem, but as ever, it's no fun if we don't delve into the theory for a bit. So humour me for a while (or you can skip ahead to the bit where I tell you how to [fix the problem](#solution)).
 
 ## Category theory time ##
 
