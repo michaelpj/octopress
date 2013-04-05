@@ -100,7 +100,7 @@ Okay, so we're going to need to define our Free functor a bit differently. We ca
 ``` scala
 sealed trait Freee[S[+_], +A]
 case class Return[S[+_]: Functor, +A](run: A) extends Freee[S, A]
-case class Roll[S[+_]: Functor, +A](run: S[Free2[S, A]]) extends Freee[S, A]
+case class Roll[S[+_]: Functor, +A](run: S[Freee[S, A]]) extends Freee[S, A]
 ```
 
 Let's run with this for a bit. We're going to define our own Free monad[^stolen], imaginatively named ```Freee``` (to avoid name collisions with Scalaz's Free), as the union of several cases, so we do that with a sealed abstract trait and some case classes that extend it. Also, in order to do some stuff with partially applying type constructors, I'm going to start using the super-ugly ["type-lambda"](http://stackoverflow.com/questions/8736164/what-are-type-lambdas-in-scala-and-what-are-their-benefits) trick.
