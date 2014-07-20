@@ -119,6 +119,7 @@ DEPENDENCIES
   jekyll-date-format (~> 1.0)
   jekyll-page-hooks (~> 1.2)
   jekyll-sitemap
+  kramdown
   rake (~> 10.0)
   rb-fsevent (~> 0.9)
   rdiscount (~> 2.0)
