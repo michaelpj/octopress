@@ -2,6 +2,7 @@ source "https://rubygems.org"
   
 group :development do
   gem 'heroku'
+  gem 'kramdown'
   gem 'rake', '~> 10.0'
   gem 'jekyll', '~> 2.0'
   gem 'jekyll-page-hooks', '~> 1.2'
